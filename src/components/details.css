@@ -1,0 +1,45 @@
+.image_space {
+     width: 50%;
+     display: inline;
+     height: 30rem;
+}
+
+.Details_50 {
+     box-sizing: border-box;
+     display: block;
+     display: inline;
+     width: 50%;
+     float: right;
+}
+
+.details {
+     color: rgb(142, 138, 138);
+     margin-bottom: 1rem;
+     margin-top: 0;
+}
+
+.textalign {
+     text-align: center;
+     width: 50%;
+     float: right;
+     display: block;
+}
+.detailsarea{
+     margin-left: 0;
+}
+.det{
+     color: rgb(142, 138, 138);
+}
+.iconsafter{
+      margin-top: 25rem;
+      margin-left: 10rem;
+     font-size: 1rem;
+}
+.display_inline{
+     display: inline;
+     padding: 1rem;
+     margin-bottom: 3rem;
+}
+.size{
+     font-size: 2rem;
+}

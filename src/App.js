@@ -1,24 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+// import { ProgressBar } from 'react-bootstrap'
+// import {
+//   FaApple,
+//   Fa500Px,
+//   FaAd,
+//   FaAirbnb,
+//   FaAccusoft,
+//   FaAlignCenter,
+//   FaAddressBook,
+// } from "react-icons/fa";
+import ContentAfterHeader from "./components/ContentAfterHeader";
+import Header from "./components/Header";
+import Writing from "./components/Writing";
+import Details from "./components/Details";
+import SubHeading from "./components/SubHeading";
+// import AfterSubheadingComponent from "./components/AfterSubheadingComponent";
+import Progress from "./Skills/Progress";
+import Experience from "./Experience/Experience";
+import Education from "./Education/Education";
+// import Card from "./Skills/Card";
+import Awards from "./Awards/Awards";
+import Services from "./Services/Services";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className="container">
+        <div className="container"></div>
+        <ContentAfterHeader />
+        <Writing namecomp="About Me" />
+        <Details />
+        <SubHeading title={"Education"} />
+        <Education/>
+        {/* Experience Area */}
+        <SubHeading title={"Experience"} />
+        <Experience />
+
+        <SubHeading title={"Skills"} />
+        <Progress/>
+        <Awards/>
+        <Services/>
+      </div>
+    </>
   );
 }
 

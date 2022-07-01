@@ -1,0 +1,46 @@
+.AfterSubHEading {
+     display: flex;
+     margin-left: 8rem;
+}
+.colorchild{
+     color: #3e64ff;
+}
+.years {
+     font-weight: 700;
+     font-size: 16px;
+     color: #3e64ff;
+     margin-bottom: 0;
+}
+
+.righarea {
+     margin-left: 1rem;
+}
+
+.qualification {
+     font-size: 24px;
+     font-weight: 700;
+     font-family: "Poppins",Arial,sans-serif;
+     text-align: left;
+     margin-bottom: 0.5rem;
+}
+.universityName{
+     font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Poppins",Arial,sans-serif;
+    margin-bottom: 0.5rem;
+}
+.description{
+font-family: "Poppins",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999;
+}
+.Childrenarea{
+     margin-top: 2rem;
+}
+.hraftercard{
+     color:#999;
+     margin-left: 7rem;
+}

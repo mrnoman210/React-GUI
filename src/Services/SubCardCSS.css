@@ -1,0 +1,33 @@
+.SubCardCSS{
+     margin-bottom: 40px;
+    padding: 2em;
+    background: rgba(255,255,255,.1);
+    width: 100%;
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    /* padding: 5px; */
+    padding: 0;
+    margin: 20px;
+
+}
+.para{
+     color: rgba(0,0,0,.7);
+     margin-top: 0;
+    margin-bottom: 1rem;
+}
+.children{
+    color: #3e64ff;
+}
+/* .SubCardCSS h1 :hover{
+     transition: 0.4s all ease;
+     background-color: #3e64ff;
+     color: azure;   */
+/* } */
+.SubCardCSS :hover{
+     transition: 0.4s all ease;
+     background-color: #3e64ff;
+     color: azure;
+}
+.aligncard{
+     padding: 7px;
+}
